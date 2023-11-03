@@ -1,0 +1,40 @@
+Files already downloaded and verified
+batch size: 2
+Iteration 99: Avg. Throughput = 65.2394032906389 img/s
+Test set accuracy 0.0776
+batch size: 4
+Iteration 99: Avg. Throughput = 132.02514692341236 img/s
+Test set accuracy 0.1227
+batch size: 8
+Iteration 99: Avg. Throughput = 275.63658087789213 img/s
+Test set accuracy 0.1834
+batch size: 16
+Iteration 99: Avg. Throughput = 548.559536160472 img/s
+Test set accuracy 0.2316
+batch size: 32
+Iteration 99: Avg. Throughput = 1066.8938328434351 img/s
+Test set accuracy 0.3378
+batch size: 64
+Iteration 99: Avg. Throughput = 2013.4322004058483 img/s
+Test set accuracy 0.3095
+batch size: 128
+Iteration 99: Avg. Throughput = 1235.515694409024 img/s
+Test set accuracy 0.3446
+batch size: 256
+Iteration 99: Avg. Throughput = 3626.376931123886 img/s
+Test set accuracy 0.475
+batch size: 512
+Iteration 99: Avg. Throughput = 4909.462782965406 img/s
+Test set accuracy 0.5018
+batch size: 1024
+Iteration 99: Avg. Throughput = 5182.867064817837 img/s
+Test set accuracy 0.4823
+batch size: 2048
+Iteration 99: Avg. Throughput = 5001.538369979975 img/s
+Test set accuracy 0.5381
+batch size: 4096
+Iteration 99: Avg. Throughput = 4713.245165174522 img/s
+Test set accuracy 0.5359
+batch size: 8192
+Iteration 99: Avg. Throughput = 4654.315743397956 img/s
+Test set accuracy 0.5549
