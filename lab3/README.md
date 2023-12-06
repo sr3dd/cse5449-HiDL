@@ -1,5 +1,33 @@
 # CSE5449 Lab 3 - Model Memory Overhead
 
+Environment related instructions:
+
+```bash
+
+# to create a conda environment
+source create-env.sh
+
+# to activate the environment created after running the above once in root directory
+source activate-env.sh
+
+```
+
+Commands to monitor GPU metrics:
+
+```bash
+
+watch -n .1 nvidia-smi
+
+
+# to monitor power, utilization and memory, optional pipe output to file instead of STDOUT
+nvidia-smi dmon -s pum [-f filename]
+
+# monitor above as well as 
+# 5 - tensor activity
+# 11, 12, 13 - FP64, FP32, FP16 activity
+nvidia-smi dmon -s pum --gpm-metrics 5,11,12,13
+
+```
 
 ## EleutherAI/Pythia-410m 
 
